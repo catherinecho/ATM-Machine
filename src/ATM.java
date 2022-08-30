@@ -5,6 +5,14 @@ public class ATM {
 	static double balance = 0.0;
 	public static void main(String[] args) {
 		accounts = new HashMap<Integer,Double>();
+		/*
+		openAccount(5);
+		System.out.println(checkBalance(5));
+		System.out.println(depositMoney(5,10));
+		System.out.println(checkBalance(5));
+		System.out.println(withdrawMoney(5,2));
+		System.out.println(checkBalance(5));
+		*/
 	}
 	
 	public static void openAccount(int num) {
